@@ -7,9 +7,19 @@
 </head>
 <body>
 
-	<input class="textField" type="text" name="firstInput">
-	<button class='submitForm'>Submit</button>
-	<button class='retrieveData'>Retrieve</button>
+	<div>
+		Code name<input class="textField" type="text" name="firstInput" style="margin-left: 5px" />
+		<div><textarea class="code" rows="15" cols="50" style="margin-top: 5px;"></textarea></div>
+	</div>
+	
+	<div>
+		<button class='submitForm'>Submit</button>
+		<button class='showSnippet'>List</button>
+		<button class='searchSnippet'>Search and update</button>
+		<button class='deleteSnippet'>Delete</button>
+	</div>
+
+	<div class="list"><ul class="listSnippet" style="display: none;"></ul></div>
 
 </body>
 </html>
